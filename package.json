@@ -1,0 +1,11 @@
+{
+  "name": "crypto-markets",
+  "version": "1.0.0",
+  "description": "retrieves the current cap for the crypyto currencies",
+  "main": "index.js",
+  "dependencies": {
+    "request":"2.81.0"
+  },
+  "author": "Neil Highley",
+  "license": "ISC"
+}
