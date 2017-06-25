@@ -1,7 +1,7 @@
 /* eslint-disable  func-names */
 /* eslint quote-props: ["error", "consistent"]*/
 /**
- * Retrieves the current stock cap for the top 5 crypto currencies
+ * Retrieves the current stock cap for the top 3 crypto currencies
  **/
 
 'use strict';
@@ -82,8 +82,6 @@ const handlers = {
 
 exports.handler = function (event, context) {
     const alexa = Alexa.handler(event, context);
-    //alexa.APP_ID = APP_ID;
-    // To enable string internationalization (i18n) features, set a resources object.
     alexa.resources = languageStrings;
     alexa.registerHandlers(handlers);
     alexa.execute();
